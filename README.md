@@ -40,7 +40,7 @@ To create a new ec2 Instance, the following command is executed:
 
     ```ansible-playbook -i inventory/ create_instance.yml  -vvv```
 
-To provision a ec2 proxy Instance, the following command is executed
+To provision a ec2 proxy Instance, the following command is executed:
 
     ```ansible-playbook -i inventory/ provision.yml -t proxy  -vvv```
 
